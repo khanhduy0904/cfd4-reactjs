@@ -14,7 +14,7 @@ import ProFile from './pages/Profile';
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
+      <Home />
       {/* <Detail /> */}
       {/* <CFDTeam /> */}
       {/* <Collab /> */}
@@ -22,7 +22,7 @@ function App() {
       {/* <Register /> */}
       {/* <RegisterSuccess /> */}
       {/* <Project /> */}
-      <ProFile />
+      {/* <ProFile /> */}
     </div>
   );
 }
