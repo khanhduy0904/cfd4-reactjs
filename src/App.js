@@ -9,12 +9,16 @@ import Payment from './pages/Payment';
 import RegisterSuccess from './pages/RegisterSuccess';
 import Project from './pages/Project';
 import ProFile from './pages/Profile';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Home />
+      <Footer />
       {/* <Detail /> */}
       {/* <CFDTeam /> */}
       {/* <Collab /> */}
